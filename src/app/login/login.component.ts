@@ -39,7 +39,6 @@ export class LoginComponent implements OnInit {
     this._service.getLoginDetails(this.user).subscribe((response: any) => {
       this.dbUsr = mapLoginDetails(response);
       this.showDetails = true;
-      console.log(this.showDetails);
     });
   }
 }
