@@ -8,7 +8,7 @@ import { LoginService } from './services/login.service';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 const appRoutes: Routes = [
-  {path: '', component: AppComponent},
+  // {path: '', component: AppComponent},
   {path: 'login', component: LoginComponent}
 ];
 @NgModule({
